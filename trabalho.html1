@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="">
+        <script src="jquery.js"></script>
+        <script>
+           
+        </script>
+        <style>
+            .site{
+                width:1000px;
+                height:500px;
+                background-color:red;
+            }
+            .header{
+                width:inherit;
+                height:100px;
+                background-color:blue;
+            }
+            .main{
+                width:inherit;
+                height:350px;
+                background-color:yellow;
+            }
+            .footer{
+                width:inherit;
+                height:50px;
+                background-color:green;
+            }
+            .esquerda{
+                width:200px;
+                height:inherit;
+                background-color:pink;
+                display:inline-block;
+                float:right;
+            }
+            .centro{
+                width:600px;
+                height:inherit;
+                background-color:grey;
+                display:inline-block;
+                float:right;
+            }
+            .direita{
+                width:200px;
+                height:inherit;
+                background-color:red;
+                display:inline-block;
+                float:right;
+            }
+            .d1{
+                width:inherit;
+                height:33%;
+                background-color:rgb(12, 12, 8);
+            }
+            .d2{
+                width:inherit;
+                height:33%;
+                background-color:rgb(43, 164, 142);
+            }
+            .d3{
+                width:inherit;
+                height:33%;
+                background-color:rgb(199, 201, 214);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="site">
+            <div class="header">
+           
+            </div>
+            <div class="main">
+                <div class="esquerda">
+
+                </div>
+                <div class="centro">
+
+                </div>
+                <div class="direita">
+                    <div class="d1">
+
+                    </div>
+                    <div class="d2">
+
+                    </div>
+                    <div class="d3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    </body>
+</html>
